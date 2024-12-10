@@ -1,9 +1,12 @@
 class Solution:
     def countDigits(self, num: int) -> int:
-        num_str = str(num)
-        result = 0
-        for i in range(len(num_str)):
-            print(i, num_str[i])
-            if num % int(num_str[i]) == 0:
-                result += 1
-        return result
+        res = 0
+        strnum = str(num)
+        newnum = num
+        for j in range(0,len(strnum)):
+            digit = newnum % 10
+            rem = newnum // 10
+            if num % digit == 0:
+                res += 1
+            newnum = rem
+        return res
