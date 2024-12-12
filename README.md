@@ -29,4 +29,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1013-fibonacci-number](https://github.com/aaronbau1/LeetCode-Solutions/tree/master/1013-fibonacci-number) |
+## Array
+|  |
+| ------- |
+| [1221-element-appearing-more-than-25-in-sorted-array](https://github.com/aaronbau1/LeetCode-Solutions/tree/master/1221-element-appearing-more-than-25-in-sorted-array) |
 <!---LeetCode Topics End-->
