@@ -33,11 +33,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0217-contains-duplicate](https://github.com/aaronbau1/LeetCode-Solutions/tree/master/0217-contains-duplicate) |
 | [1221-element-appearing-more-than-25-in-sorted-array](https://github.com/aaronbau1/LeetCode-Solutions/tree/master/1221-element-appearing-more-than-25-in-sorted-array) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/aaronbau1/LeetCode-Solutions/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 ## Hash Table
 |  |
 | ------- |
+| [0217-contains-duplicate](https://github.com/aaronbau1/LeetCode-Solutions/tree/master/0217-contains-duplicate) |
 | [0387-first-unique-character-in-a-string](https://github.com/aaronbau1/LeetCode-Solutions/tree/master/0387-first-unique-character-in-a-string) |
 ## Queue
 |  |
@@ -47,4 +49,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0387-first-unique-character-in-a-string](https://github.com/aaronbau1/LeetCode-Solutions/tree/master/0387-first-unique-character-in-a-string) |
+## Sorting
+|  |
+| ------- |
+| [0217-contains-duplicate](https://github.com/aaronbau1/LeetCode-Solutions/tree/master/0217-contains-duplicate) |
 <!---LeetCode Topics End-->
