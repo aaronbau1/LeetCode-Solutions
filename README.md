@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0009-palindrome-number](https://github.com/aaronbau1/LeetCode-Solutions/tree/master/0009-palindrome-number) |
+| [0189-rotate-array](https://github.com/aaronbau1/LeetCode-Solutions/tree/master/0189-rotate-array) |
 | [0507-perfect-number](https://github.com/aaronbau1/LeetCode-Solutions/tree/master/0507-perfect-number) |
 | [1013-fibonacci-number](https://github.com/aaronbau1/LeetCode-Solutions/tree/master/1013-fibonacci-number) |
 ## Two Pointers
@@ -12,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/aaronbau1/LeetCode-Solutions/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0125-valid-palindrome](https://github.com/aaronbau1/LeetCode-Solutions/tree/master/0125-valid-palindrome) |
+| [0189-rotate-array](https://github.com/aaronbau1/LeetCode-Solutions/tree/master/0189-rotate-array) |
 | [0344-reverse-string](https://github.com/aaronbau1/LeetCode-Solutions/tree/master/0344-reverse-string) |
 ## String
 |  |
@@ -35,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/aaronbau1/LeetCode-Solutions/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0189-rotate-array](https://github.com/aaronbau1/LeetCode-Solutions/tree/master/0189-rotate-array) |
 | [0217-contains-duplicate](https://github.com/aaronbau1/LeetCode-Solutions/tree/master/0217-contains-duplicate) |
 | [1221-element-appearing-more-than-25-in-sorted-array](https://github.com/aaronbau1/LeetCode-Solutions/tree/master/1221-element-appearing-more-than-25-in-sorted-array) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/aaronbau1/LeetCode-Solutions/tree/master/1878-check-if-array-is-sorted-and-rotated) |
