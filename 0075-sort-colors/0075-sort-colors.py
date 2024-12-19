@@ -8,12 +8,14 @@ class Solution:
         right = len(nums) - 1
 
         while mid <= right:
+            print(nums)
+            print(left, mid, right)
             if nums[mid] == 0:
-                nums[left], nums[mid] = nums[mid], nums[left]
+                nums[mid], nums[left] = nums[left], nums[mid]
                 left += 1
                 mid += 1
             elif nums[mid] == 1:
                 mid += 1
-            else:
-                nums[mid], nums[right] = nums[right], nums[mid]
+            elif nums[mid] == 2:
+                nums[right], nums[mid] = nums[mid], nums[right]
                 right -= 1
