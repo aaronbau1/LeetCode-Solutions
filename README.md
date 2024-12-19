@@ -50,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0485-max-consecutive-ones](https://github.com/aaronbau1/LeetCode-Solutions/tree/master/0485-max-consecutive-ones) |
 | [0724-find-pivot-index](https://github.com/aaronbau1/LeetCode-Solutions/tree/master/0724-find-pivot-index) |
 | [1221-element-appearing-more-than-25-in-sorted-array](https://github.com/aaronbau1/LeetCode-Solutions/tree/master/1221-element-appearing-more-than-25-in-sorted-array) |
+| [1514-minimum-value-to-get-positive-step-by-step-sum](https://github.com/aaronbau1/LeetCode-Solutions/tree/master/1514-minimum-value-to-get-positive-step-by-step-sum) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/aaronbau1/LeetCode-Solutions/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 ## Hash Table
 |  |
@@ -87,4 +88,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0724-find-pivot-index](https://github.com/aaronbau1/LeetCode-Solutions/tree/master/0724-find-pivot-index) |
+| [1514-minimum-value-to-get-positive-step-by-step-sum](https://github.com/aaronbau1/LeetCode-Solutions/tree/master/1514-minimum-value-to-get-positive-step-by-step-sum) |
 <!---LeetCode Topics End-->
