@@ -1,14 +1,14 @@
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
-        # Brute: Calculate sums for all subarrays possible
-        # Better 
-        # Optimal: Calculate sum at each point and then calculate the greatest pos jump
-        
-        psum = 0
-        max_sum = float(-inf)
+        # brute - find all the subarrays and sum them then return the maximum sum O(n^3)
+        # better - prefix sum and store sums - iterate through and find the local difference max
+        # optimal - sliding window where you reset the window if the count drops below 0
+
+        asum = 0
+        result = float(-inf)
         for i in range(len(nums)):
-            psum += nums[i]
-            max_sum = max(max_sum, psum)
-            if psum < 0:
-                psum = 0
-        return max_sum
+            asum += nums[i]
+            result = max(result, asum)
+            if asum < 0:
+                asum = 0
+        return result
