@@ -7,6 +7,8 @@ class Solution:
         bot = len(matrix) - 1
 
         while left <= right and top <= bot:
+            # top and right are not checked because they are checked at the beginning of the while loop
+            # and then we change top and right, so we have to check bot and left before we append
             # top
             for i in range(left, right + 1):
                 result.append(matrix[top][i])
