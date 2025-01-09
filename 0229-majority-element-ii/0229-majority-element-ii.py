@@ -5,6 +5,7 @@ class Solution:
         # brute: check all numbers and frequencies O(n^3) O(n)
         # better: 
         # optimal: 
+        target_count = (len(nums) // 3) + 1
         result = []
         store = {}
         for i in range(len(nums)):
@@ -12,8 +13,9 @@ class Solution:
                 store[nums[i]] += 1
             else:
                 store[nums[i]] = 1
-        print(store)
-        for val in store:
-            if store[val] > math.floor(len(nums) // 3):
-                result.append(val)
+            
+            if store[nums[i]] == target_count:
+                result.append(nums[i])
+            if len(result) == 2:
+                break
         return result
