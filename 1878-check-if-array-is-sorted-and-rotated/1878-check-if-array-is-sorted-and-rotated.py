@@ -1,13 +1,15 @@
 class Solution:
     def check(self, nums: List[int]) -> bool:
-        # O(n^2) check each index and see if it is constantly incr from there
-        # O(nlogn) sort array and then see if it is const increasing
-        # see if there is one or 0 decrement - if so return true, otherwise return false
+        # brute: have count variable and see if array goes up by one each time. Then check every element. O(n^2)
+        # better: 
+        # optimal: iterate through and count the drops in value, if less than or equal to 1 return true
 
         result = 0
-        if nums[0] < nums[-1]:
-            result += 1
-        for i in range(0, len(nums) - 1):
-            if nums[i + 1] < nums[i]:
+        for i in range(len(nums)):
+            print(i)
+            if i == len(nums) - 1:
+                if nums[i] > nums[0]:
+                    result += 1
+            elif nums[i] > nums[i+1]:
                 result += 1
-        return True if result < 2 else False
+        return result <= 1
