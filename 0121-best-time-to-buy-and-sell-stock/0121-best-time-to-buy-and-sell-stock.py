@@ -1,9 +1,10 @@
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
-        diff = 0
-        local_min = prices[0]
-
+        buy_day = prices[0]
+        profit = 0
         for i in range(1, len(prices)):
-            local_min = min(prices[i], local_min)
-            diff = max(diff, prices[i] - local_min)
-        return diff
+            local_p = prices[i] - buy_day
+            profit = max(local_p, profit)
+            if prices[i] < buy_day:
+                buy_day = prices[i]
+        return profit
