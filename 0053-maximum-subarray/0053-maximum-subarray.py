@@ -1,14 +1,17 @@
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
-        # brute - find all the subarrays and sum them then return the maximum sum O(n^3)
-        # better - prefix sum and store sums - iterate through and find the local difference max
-        # optimal - sliding window where you reset the window if the count drops below 0
+        # brute find all subarrays and calculate sums
+        # better: prefix sum and calculate greatest value from the hashmap
+        # optimal: two pointers and start over when it is lower than zero
+        local_sum = 0
+        max_sum = float("-inf")
 
-        asum = 0
-        result = float(-inf)
         for i in range(len(nums)):
-            asum += nums[i]
-            result = max(result, asum)
-            if asum < 0:
-                asum = 0
-        return result
+            local_sum += nums[i]
+            max_sum = max(max_sum, local_sum)
+            if local_sum < 0:
+                local_sum = 0
+        return max_sum
+
+            
+
