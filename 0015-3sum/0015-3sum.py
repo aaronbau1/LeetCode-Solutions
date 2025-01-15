@@ -1,15 +1,17 @@
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
-        # brute find all combinations of 3 numbers and sum them and sort them. O(n^3)
-        # better use a storage set to store combinations, know that k = -i + -j so we can reduce to two loops
-        # optimal use a fixed pointer that we loop through with a two pointer approach 
+        # bruter: find all triplets in three loops, sum them, sort them and see if they already exist in the array O(n^3 + nlogn)
+        # better: use a hashmap and store results in them, then loop through and find all triplets. Before storing, we sort and check O(n^2)
+        # optimal: two pointer with initial sort
         nums.sort()
         result = []
+
         for i in range(len(nums)):
             if i > 0 and nums[i] == nums[i-1]:
                 continue
             j = i + 1
             k = len(nums) - 1
+
             while j < k:
                 threeSum = nums[i] + nums[j] + nums[k]
                 if threeSum > 0:
