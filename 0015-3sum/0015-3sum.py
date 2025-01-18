@@ -1,14 +1,16 @@
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
-        # bruter: find all triplets in three loops, sum them, sort them and see if they already exist in the array O(n^3 + nlogn)
-        # better: use a hashmap and store results in them, then loop through and find all triplets. Before storing, we sort and check O(n^2)
-        # optimal: two pointer with initial sort
-        nums.sort()
+        # brute: calculate all subarrays that equal zero, sort, and store into a set. 
+        # better: know that k = - i - j, use set to find target value and for sums and another set to store triplets
+        # optimal
+        
         result = []
+        nums.sort()
 
         for i in range(len(nums)):
             if i > 0 and nums[i] == nums[i-1]:
                 continue
+            
             j = i + 1
             k = len(nums) - 1
 
@@ -19,7 +21,7 @@ class Solution:
                 elif threeSum < 0:
                     j += 1
                 else:
-                    result.append([nums[i], nums[j], nums[k]])
+                    result.append([nums[i], nums[j],nums[k]])
                     j += 1
                     k -= 1
                     while j < k and nums[j] == nums[j-1]:
