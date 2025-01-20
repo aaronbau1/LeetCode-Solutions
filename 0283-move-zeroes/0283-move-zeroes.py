@@ -4,13 +4,12 @@ class Solution:
         Do not return anything, modify nums in-place instead.
         """
         zero_index = 0
-        while nums[zero_index] != 0:
+        n = len(nums)
+        while zero_index < n and nums[zero_index] != 0:
             zero_index += 1
-            if zero_index >= len(nums) - 1:
-                return
         
-        for i in range(zero_index, len(nums)):
+        for i in range(zero_index, n):
             if nums[i] != 0:
                 nums[i], nums[zero_index] = nums[zero_index], nums[i]
                 zero_index += 1
-        
+            
