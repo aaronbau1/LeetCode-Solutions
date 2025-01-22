@@ -74,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0485-max-consecutive-ones](https://github.com/aaronbau1/LeetCode-Solutions/tree/master/0485-max-consecutive-ones) |
 | [0560-subarray-sum-equals-k](https://github.com/aaronbau1/LeetCode-Solutions/tree/master/0560-subarray-sum-equals-k) |
 | [0724-find-pivot-index](https://github.com/aaronbau1/LeetCode-Solutions/tree/master/0724-find-pivot-index) |
+| [0792-binary-search](https://github.com/aaronbau1/LeetCode-Solutions/tree/master/0792-binary-search) |
 | [1221-element-appearing-more-than-25-in-sorted-array](https://github.com/aaronbau1/LeetCode-Solutions/tree/master/1221-element-appearing-more-than-25-in-sorted-array) |
 | [1514-minimum-value-to-get-positive-step-by-step-sum](https://github.com/aaronbau1/LeetCode-Solutions/tree/master/1514-minimum-value-to-get-positive-step-by-step-sum) |
 | [1833-find-the-highest-altitude](https://github.com/aaronbau1/LeetCode-Solutions/tree/master/1833-find-the-highest-altitude) |
@@ -117,6 +118,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0268-missing-number](https://github.com/aaronbau1/LeetCode-Solutions/tree/master/0268-missing-number) |
 | [0349-intersection-of-two-arrays](https://github.com/aaronbau1/LeetCode-Solutions/tree/master/0349-intersection-of-two-arrays) |
+| [0792-binary-search](https://github.com/aaronbau1/LeetCode-Solutions/tree/master/0792-binary-search) |
 ## Bit Manipulation
 |  |
 | ------- |
