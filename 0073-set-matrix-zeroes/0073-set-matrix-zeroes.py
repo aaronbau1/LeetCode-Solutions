@@ -3,33 +3,31 @@ class Solution:
         """
         Do not return anything, modify matrix in-place instead.
         """
-        # brute: make a copy of the array - when an element is zero, mark the rows int he copy O(n^2) O(n)
-        # better: use an external row and column array and mark when an element is zero. Then iterate through and mark the array
-        # optimal: Use the first row and columns + one variable to mark array
 
         rows = len(matrix)
         cols = len(matrix[0])
         first_col = False
-
-        for row in range(rows):
-            for col in range(cols):
-                if matrix[row][col] == 0:
-                    matrix[row][0] = 0
-
-                    if col != 0:
-                        matrix[0][col] = 0
-                    else:
+        
+        for i in range(rows):
+            for j in range(cols):
+                if matrix[i][j] == 0:
+                    matrix[i][0] = 0
+                    if j == 0:
                         first_col = True
+                    else:
+                        matrix[0][j] = 0
         
-        for row in range(1, rows):
-            for col in range(1, cols):
-                if matrix[row][0] == 0 or matrix[0][col] == 0:
-                    matrix[row][col] = 0
+        for i in range(1, rows):
+            for j in range(1, cols):
+                if matrix[0][j] == 0 or matrix[i][0] == 0:
+                    matrix[i][j] = 0
         
+        # check first row and first col
         if matrix[0][0] == 0:
-            for col in range(cols):
-                matrix[0][col] = 0
-        if first_col:
-            for row in range(rows):
-                matrix[row][0] = 0
+            for j in range(cols):
+                matrix[0][j] = 0
+                
+        if first_col == True:
+            for i in range(rows):
+                matrix[i][0] = 0
         
