@@ -3,8 +3,7 @@ class Solution:
         result = []
         intervals.sort()
         for i in range(len(intervals)):
-            print(i)
-            if not result or result[-1][1] < intervals[i][0]:
+            if not result or intervals[i][0] > result[-1][1]:
                 result.append(intervals[i])
             else:
                 result[-1][1] = max(result[-1][1], intervals[i][1])
