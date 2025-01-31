@@ -83,6 +83,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1514-minimum-value-to-get-positive-step-by-step-sum](https://github.com/aaronbau1/LeetCode-Solutions/tree/master/1514-minimum-value-to-get-positive-step-by-step-sum) |
 | [1833-find-the-highest-altitude](https://github.com/aaronbau1/LeetCode-Solutions/tree/master/1833-find-the-highest-altitude) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/aaronbau1/LeetCode-Solutions/tree/master/1878-check-if-array-is-sorted-and-rotated) |
+| [2058-concatenation-of-array](https://github.com/aaronbau1/LeetCode-Solutions/tree/master/2058-concatenation-of-array) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/aaronbau1/LeetCode-Solutions/tree/master/2271-rearrange-array-elements-by-sign) |
 | [3194-find-words-containing-character](https://github.com/aaronbau1/LeetCode-Solutions/tree/master/3194-find-words-containing-character) |
 ## Hash Table
@@ -147,6 +148,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/aaronbau1/LeetCode-Solutions/tree/master/0054-spiral-matrix) |
+| [2058-concatenation-of-array](https://github.com/aaronbau1/LeetCode-Solutions/tree/master/2058-concatenation-of-array) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/aaronbau1/LeetCode-Solutions/tree/master/2271-rearrange-array-elements-by-sign) |
 ## Matrix
 |  |
