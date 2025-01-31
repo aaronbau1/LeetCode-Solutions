@@ -1,13 +1,11 @@
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
-        # bruter - for each value, iterate through array and see if it reappears O(n^2)
-        # better - use a set and count freq - return true if element appears twice O(n) O(n)
-        # optimal - 
-
+        # brute create a hashmap and iterate through twice O(2n) O(n)
+        # optimal use a set and add to it, return value if it's in the set O(n) O(n)
         store = set()
         for i in range(len(nums)):
-            if not (nums[i] in store):
-                store.add(nums[i])
-            else:
+            if nums[i] in store:
                 return True
+            else:
+                store.add(nums[i])
         return False
