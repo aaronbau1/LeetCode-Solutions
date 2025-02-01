@@ -1,13 +1,13 @@
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
-        # optimal: create hashmap
         store = {}
-        result = []
-        for i in range(len(strs)):
-            word = "".join(sorted(strs[i]))
-            if word in store:
-                result[store[word]].append(strs[i])
+        for s in strs:
+            count = [0] * 26
+            for char in s:
+                i = ord(char) - ord('a')
+                count[i] += 1
+            if tuple(count) in store:
+                store[tuple(count)].append(s)
             else:
-                result.append([strs[i]])
-                store[word] = len(result) - 1
-        return result
+                store[tuple(count)] = [s]
+        return list(store.values())
