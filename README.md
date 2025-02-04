@@ -92,6 +92,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1514-minimum-value-to-get-positive-step-by-step-sum](https://github.com/aaronbau1/LeetCode-Solutions/tree/master/1514-minimum-value-to-get-positive-step-by-step-sum) |
 | [1833-find-the-highest-altitude](https://github.com/aaronbau1/LeetCode-Solutions/tree/master/1833-find-the-highest-altitude) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/aaronbau1/LeetCode-Solutions/tree/master/1878-check-if-array-is-sorted-and-rotated) |
+| [1927-maximum-ascending-subarray-sum](https://github.com/aaronbau1/LeetCode-Solutions/tree/master/1927-maximum-ascending-subarray-sum) |
 | [2058-concatenation-of-array](https://github.com/aaronbau1/LeetCode-Solutions/tree/master/2058-concatenation-of-array) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/aaronbau1/LeetCode-Solutions/tree/master/2271-rearrange-array-elements-by-sign) |
 | [3194-find-words-containing-character](https://github.com/aaronbau1/LeetCode-Solutions/tree/master/3194-find-words-containing-character) |
