@@ -1,43 +1,38 @@
 class Solution:
     def countFreq(self, arr, target):
-        # find upper and lower bound and subtract, or return 0
         low = 0
         high = len(arr) - 1
-        first = -1
+        floor = -1
         
         while low <= high:
-            mid = (low+high) // 2
-            
+            mid = (low + high) // 2
             if arr[mid] > target:
                 high = mid - 1
-            elif arr[mid] < target:
-                low = mid + 1
-            else:
-                first = mid
+            elif arr[mid] == target:
+                floor = mid
                 high = mid - 1
+            else:
+                low = mid + 1
         
-        if first == -1:
+        if floor == -1:
             return 0
         
         low = 0
         high = len(arr) - 1
-        last = -1
+        ceil = -1
         
         while low <= high:
-            mid = (low+high) // 2
-            
-            if arr[mid] > target:
-                high = mid - 1
-            elif arr[mid] < target:
+            mid = (low + high) // 2
+            if arr[mid] < target:
+                low = mid + 1
+            elif arr[mid] == target:
+                ceil = mid
                 low = mid + 1
             else:
-                last = mid
-                low = mid + 1
+                high = mid - 1
         
-        return last - first + 1
-
-
-
+        return ceil - floor + 1
+        
 
 #{ 
  # Driver Code Starts
